@@ -89,8 +89,38 @@ header{
 #iphone-13{
     height:69.2rem;
     /* margin-top:4.4rem;  */
-   background: url("https://www.apple.com/v/home/aj/images/heroes/iphone-13-pro/hero_iphone_13pro__dhnsegysa42u_largetall.jpg");
+   background: url("https://www.apple.com/v/home/aj/images/heroes/iphone-13/hero_iphone_13__f194u1rdooeq_largetall.jpg");
     background-position: center;
     background-repeat: no-repeat;
-
+}
+.learn-buy{
+    text-align:center;
+    margin-top: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding:auto;
+ 
+    
+}
+.cta-link{
+    font-weight: lighter;
+    font-size:2.1rem;
+    color: rgb(67, 96, 224);
+}
+.cta-link:first-child{
+    margin-left: 30px;
+}
+.cta-link:last-child{
+    margin-left: 50px;
+}
+#watch{
+    height:69.2rem;
+    /* margin-top:4.4rem;  */
+   background: url("https://www.apple.com/v/home/aj/images/heroes/valentines-day-last-chance/hero_vday22__bt5gpd2vjafm_largetall.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.shop,.cta-link {
+margin-left: 400px;
 }
