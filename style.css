@@ -1,0 +1,96 @@
+*{
+    margin:0;
+    padding:0;
+}
+html{
+    font-size: 10px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+a{
+    display:block;
+    text-decoration: none;
+}
+.container{
+    max-width:98rem;
+    margin:0 auto;
+    padding: 0 2.2rem;
+}
+header{
+    position:fixed;
+    background-color: black;
+    height:4.4rem;
+    width:100%
+}
+.nav-list{
+   list-style: none;
+   display:flex;
+   align-items:center;
+   justify-content:space-between; 
+}
+.nav-list-mobile{
+    display:none;
+}
+.nav-link{
+    font-size: 1.4rem;
+    color:#fff;
+    padding:0 1rem;
+    transition : opacity .5s;
+}
+.nav-link:hover{
+    opacity: .7;
+}
+.nav-link-apple{
+    width:1.6rem;
+    height:4.4rem;
+    background: url("https://www.apple.com/ac/globalnav/7/en_US/images/be15095f-5a20-57d0-ad14-cf4c638e223a/globalnav_apple_image__b5er5ngrzxqq_large.svg") center no-repeat;
+}
+.nav-link-bag{
+    width:1.6rem;
+    height:4.4rem;
+    background: url("https://www.apple.com/ac/globalnav/7/en_US/images/be15095f-5a20-57d0-ad14-cf4c638e223a/globalnav_bag_image__yzte50i47ciu_large.svg") center no-repeat;
+}
+
+.nav-link-search{
+    width:1.6rem;
+    height:4.4rem;
+    background: url("https://www.apple.com/ac/globalnav/7/en_US/images/be15095f-5a20-57d0-ad14-cf4c638e223a/globalnav_search_image__cbllq1gkias2_large.svg")center no-repeat;
+
+}
+/* .nav-link-serach-extra{
+    width:1.6rem;
+    height:9.4;
+    background: url("https://www.apple.com/ac/globalnav/7/en_US/images/be15095f-5a20-57d0-ad14-cf4c638e223a/globalnav_search_image__cbllq1gkias2_large.svg")center no-repeat;
+
+} */
+#iphone-13pro{
+    height:69.2rem;
+    /* margin-top:4.4rem;  */
+   background: url("https://www.apple.com/v/home/aj/images/heroes/iphone-13-pro/hero_iphone_13pro__dhnsegysa42u_largetall.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.title{
+    margin-top:5px;
+    color:black;
+    text-align: center;
+    padding-top: 5.5rem;
+}
+.title-heading{
+    font-size:5.6rem;
+    line-height: 1.07143;
+    letter-spacing: -0.05rem;
+  }
+  .title-sub-heading{
+    font-size:30px;
+    line-height: 1.07143;
+    letter-spacing: -0.05rem;
+    font-weight: lighter ;
+  }
+#iphone-13{
+    height:69.2rem;
+    /* margin-top:4.4rem;  */
+   background: url("https://www.apple.com/v/home/aj/images/heroes/iphone-13-pro/hero_iphone_13pro__dhnsegysa42u_largetall.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+
+}
