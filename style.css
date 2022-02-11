@@ -114,6 +114,7 @@ header{
 .cta-link:last-child{
     margin-left: 50px;
 }
+/* watch section */
 #watch{
     height:69.2rem;
     /* margin-top:4.4rem;  */
@@ -123,4 +124,47 @@ header{
 }
 .shop,.cta-link {
 margin-left: 400px;
+}
+/* multiple images together */
+/* apple imag logo */
+.img-logo{
+    -webkit-filter: grayscale(1) invert(1);
+   filter: grayscale(1) invert(1);
+   height: 50px;
+
+}
+#pics1{
+     height:69.2rem;
+    background: url("https://www.apple.com/v/home/aj/images/promos/watch-series-7/tile_watch__e9n11b6m6yq2_large.jpg") ;   
+    background-position: center;
+    background-repeat: no-repeat;
+}
+h5,h4{
+    color:red;
+    font-size: 15px;
+}
+#pics2{
+    height:69.2rem;
+   background: url("https://www.apple.com/v/home/aj/images/promos/shot-on-iphone/tile_soip__f0c6lef982em_large.jpg") ;   
+   background-position: center;
+   background-repeat: no-repeat;
+}
+#pics3{
+    height:69.2rem;
+   background: url("https://www.apple.com/v/home/aj/images/promos/watch-heart-month/promo_watch_heart__dlf8uc5h0kae_large.jpg") ;   
+   background-position: center;
+   background-repeat: no-repeat;
+}
+.pic1,h2{
+    line-height:1px;
+}
+.pic1,h3{
+    font-size: 20px;
+    line-height: 1.07143;
+    letter-spacing: -0.05rem;
+    font-weight: lighter ;
+}
+.heart-watches{
+    font-weight: bold;
+    margin-left: 300px;
 }
