@@ -136,9 +136,9 @@ margin-left: 400px;
 #pics1{
      height:69.2rem;
     background: url("https://www.apple.com/v/home/aj/images/promos/watch-series-7/tile_watch__e9n11b6m6yq2_large.jpg") ;   
-    background-position: center;
+     background-position: center;
     background-repeat: no-repeat;
-}
+} 
 h5,h4{
     color:red;
     font-size: 15px;
@@ -146,18 +146,23 @@ h5,h4{
 #pics2{
     height:69.2rem;
    background: url("https://www.apple.com/v/home/aj/images/promos/shot-on-iphone/tile_soip__f0c6lef982em_large.jpg") ;   
-   background-position: center;
-   background-repeat: no-repeat;
+    background-position: center;
+   background-repeat: no-repeat; 
 }
 #pics3{
     height:69.2rem;
    background: url("https://www.apple.com/v/home/aj/images/promos/watch-heart-month/promo_watch_heart__dlf8uc5h0kae_large.jpg") ;   
-   background-position: center;
+    background-position: center;
+   background-repeat: no-repeat; 
+}
+#pics4{
+    height:69.2rem;
+   background: url("https://www.apple.com/v/home/aj/images/promos/watch-black-unity/promo_watch__fo7j0tnywi2q_large.jpg") ;   
+    background-position: center;
    background-repeat: no-repeat;
+
 }
-.pic1,h2{
-    line-height:1px;
-}
+
 .pic1,h3{
     font-size: 20px;
     line-height: 1.07143;
@@ -166,9 +171,19 @@ h5,h4{
 }
 .heart-watches{
     font-weight: bold;
-    margin-left: 300px;
+    margin-left: 400px;
 }
-.pic1{
-    display:flex;
-    flex-direction:column;
+
+    
+
+.multiple-images{
+    display: flex;
+    flex-direction: row;
+     flex-wrap: wrap;
+ justify-content: space-evenly;
+ width:100%;
+ height:100%;
+ object-fit: contain;
+ margin:0 10px 10px 10px;
+ padding: 2px 2px 2px 2px;
 }
