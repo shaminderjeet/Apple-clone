@@ -53,20 +53,13 @@ header {
     center no-repeat;
 }
 
-/* .nav-link-search{
+.nav-link-search{
     width:1.6rem;
     height:4.4rem;
     background: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSs49plw4PcmVMDOOgIbunCJgieNKeGZWEu3w&usqp=CAU") center no-repeat;
-} */
-/* .nav-link-serach-extra{
-    width:1.6rem;
-    height:9.4;
-    background: url("https://www.apple.com/ac/globalnav/7/en_US/images/be15095f-5a20-57d0-ad14-cf4c638e223a/globalnav_search_image__cbllq1gkias2_large.svg")center no-repeat;
 
-} */
-.fa-thin fa-magnifying-glass {
-  width: 1.6rem;
-  height: 4.4rem;
+
+
 }
 
 #iphone-13pro {
@@ -113,13 +106,7 @@ header {
   font-size: 2.1rem;
   color: rgb(67, 96, 224);
 }
-/* .cta-link:first-child {
-  margin-left: 30px;
-}
-.cta-link:last-child {
-  margin-left: 50px;
-} */
-/* watch section */
+
 #watch {
   height: 69.2rem;
   /* margin-top:4.4rem;  */
@@ -127,12 +114,7 @@ header {
   background-position: center;
   background-repeat: no-repeat;
 }
-/* .heart-watches,
-a {
-  margin-right: 70px;
-} */
-/* multiple images together */
-/* apple imag logo */
+
 .img-logo {
   -webkit-filter: grayscale(1) invert(1);
   filter: grayscale(1) invert(1);
