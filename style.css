@@ -113,12 +113,12 @@ header {
   font-size: 2.1rem;
   color: rgb(67, 96, 224);
 }
-.cta-link:first-child {
+/* .cta-link:first-child {
   margin-left: 30px;
 }
 .cta-link:last-child {
   margin-left: 50px;
-}
+} */
 /* watch section */
 #watch {
   height: 69.2rem;
@@ -127,10 +127,10 @@ header {
   background-position: center;
   background-repeat: no-repeat;
 }
-.shop,
-.cta-link {
-  margin-left: 400px;
-}
+/* .heart-watches,
+a {
+  margin-right: 70px;
+} */
 /* multiple images together */
 /* apple imag logo */
 .img-logo {
@@ -195,10 +195,10 @@ h3 {
   width: 45%;
 }
 @media screen and (max-width: 600px) {
-  body {
+  /* body {
     background-color: blue;
   }
-}
+} */
 
 /* On screens that are 600px or less, set the background color to olive */
 @media screen and (max-width: 480px) {
@@ -214,15 +214,16 @@ h3 {
   .nav-list-mobile {
       display: block;
   }
-
+.na
 
   .nav-link {
     display: block;
+    justify-content: center;
   }
-  .nav-link nav-link-bag {
+  /* .nav-link nav-link-bag {
     width: 1.6rem;
     height: 4.4rem;
     background: url("https://www.apple.com/ac/globalnav/7/en_US/images/be15095f-5a20-57d0-ad14-cf4c638e223a/globalnav_bag_image__yzte50i47ciu_large.svg")
       center no-repeat;
-  }
+  } */
 }
