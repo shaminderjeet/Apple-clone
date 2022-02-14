@@ -7,3 +7,8 @@ Don't worry about it being perfect. The goal is to practice flexbox, media queri
 I used extraction.io website for extracting images
 I make the website to make it more responsive
 I used FONT AWESOME for fonts and icons 
+Main Methods Used:-
+HTML
+CSS
+Bootstrap
+fontawesome
