@@ -56,8 +56,8 @@ header {
 .nav-link-search {
   width: 1.6rem;
   height: 4.4rem;
-  background: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSs49plw4PcmVMDOOgIbunCJgieNKeGZWEu3w&usqp=CAU")
-    center no-repeat;
+  /* background: url("search.png")
+    center no-repeat; */
 }
 
 #iphone-13pro {
@@ -91,6 +91,13 @@ header {
   background-position: center;
   background-repeat: no-repeat;
 }
+#iphone-13 h2{
+  color: #fff;
+
+}
+#iphone-13 h3{
+  color:coral
+}
 .learn-buy {
   text-align: center;
   margin-top: 10px;
@@ -104,8 +111,11 @@ header {
   font-size: 2.1rem;
   color: rgb(67, 96, 224);
 }
+.cta-link:hover{
+  text-decoration: underline;
+}
 
-#watch {
+#watch{
   height: 69.2rem;
   /* margin-top:4.4rem;  */
   background: url("https://www.apple.com/v/home/aj/images/heroes/valentines-day-last-chance/hero_vday22__bt5gpd2vjafm_largetall.jpg");
@@ -172,7 +182,7 @@ h3 {
   padding: 2px 2px 2px 2px;
 }
 .multiple-images section {
-  width: 45%;
+  width: 48%;
 }
 @media screen and (max-width: 600px) {
 }
