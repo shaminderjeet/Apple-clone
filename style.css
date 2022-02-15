@@ -59,6 +59,18 @@ header {
   /* background: url("search.png")
     center no-repeat; */
 }
+  /*online shopping section */
+
+
+
+.shop-online{
+  width:90%;
+  height: 20px;
+  font-size: medium;
+   background-color:beige;
+  margin:50px 50px 10px ;
+  padding:2px;
+}
 
 #iphone-13pro {
   height: 69.2rem;
@@ -100,16 +112,20 @@ header {
 }
 .learn-buy {
   text-align: center;
-  margin-top: 10px;
+  margin: 10px 200px;
   display: flex;
   flex-direction: row;
   justify-content: center;
-  padding: auto;
+   padding:auto;
+
+  
 }
 .cta-link {
   font-weight: lighter;
   font-size: 2.1rem;
   color: rgb(67, 96, 224);
+  padding-right:20px;
+
 }
 .cta-link:hover{
   text-decoration: underline;
